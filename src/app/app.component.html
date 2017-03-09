@@ -1,0 +1,10 @@
+<div *ngIf="planets">
+  <h1>
+    Planets are
+  </h1>
+
+  <pre>{{planets|json}}</pre>
+</div>
+
+<button (click)="setTokenAndGetPlanets()">Set token (won't work)</button>
+<button (click)="clearTokenAndGetPlanets()">Clear token (will work)</button>
