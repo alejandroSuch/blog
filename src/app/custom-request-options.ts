@@ -12,7 +12,6 @@ export class CustomRequestOptions extends BaseRequestOptions {
   }
 
   merge(options?: RequestOptionsArgs): RequestOptions {
-    debugger;
     if (this.authService.token) {
       this.headers.append(AUTHORIZATION_HEADER, `Bearer ${this.authService.token}`);
     } else {
