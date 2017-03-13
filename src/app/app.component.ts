@@ -3,7 +3,7 @@ import {Http, Response} from '@angular/http';
 
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
-import {AuthService} from "./auth.service";
+import {AuthService} from './auth.service';
 
 @Component({
   selector: 'app-root',
