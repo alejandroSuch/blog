@@ -1,15 +1,12 @@
-import {Component, Injector, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-parent-component',
   templateUrl: './parent.component.html'
 })
-export class ParentComponent implements OnInit {
+export class ParentComponent {
 
-  constructor(private injector: Injector) {
-  }
-
-  ngOnInit() {
+  constructor() {
   }
 
   sayHello() {
